@@ -1,8 +1,6 @@
 # Brickset
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/brickset`. To experiment with that code, run `bin/console` for an interactive prompt.
-
-TODO: Delete this and the text above, and describe your gem
+Get LEGO set details from brickset.com.
 
 ## Installation
 
@@ -22,7 +20,27 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+```ruby
+require 'brickset'
+
+client = Brickset::Client.new
+client.get_set(10251)
+=> #<Brickset::Legoset:0x007f956acfc3b0
+  @available_since=Fri, 01 Jan 2016,
+  @eol=0,
+  @legoset_id="10251",
+  @minifigs=5,
+  @name="Brick Bank",
+  @pieces=2380,
+  @ppp=5.5,
+  @rrp=149.99,
+  @rrpd=169.99,
+  @rrpp=129.99,
+  @score=4.6,
+  @subtheme="Modular Buildings",
+  @theme="Advanced Models",
+  @year=2016>
+```
 
 ## Development
 

@@ -19,10 +19,13 @@ module Brickset
       end
 
       def parse_details(html)
-        # TODO: refactor / cleanup
         details = { }
         eol = 0
-        html.css('section.featurebox dl').css('dt,dd').to_a.each_slice(2) do |dt, dd|
+
+        featurebox = html.css('section.featurebox dl')
+        raise Brickset::Legoset::NotFound unless featurebox.any?
+
+        featurebox.css('dt,dd').to_a.each_slice(2) do |dt, dd|
           case dt.text.strip
           when 'Name'
             details[:name] = dd.text

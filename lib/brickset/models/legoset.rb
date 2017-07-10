@@ -25,4 +25,6 @@ module Brickset
       "https://brickset.com/sets/#{@legoset_id}-1"
     end
   end
+
+  class Legoset::NotFound < StandardError; end
 end

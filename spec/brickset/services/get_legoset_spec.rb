@@ -17,5 +17,13 @@ describe Brickset::Services::GetLegoset do
         expect(subject.send(attr)).to be_present
       end
     end
+
+    context 'for an inexistent set', vcr: { cassette_name: 'not_found' } do
+      let(:legoset_id) { '123456' }
+
+      it 'raises a not found exception' do
+        expect { subject }.to raise_error(Brickset::Legoset::NotFound)
+      end
+    end
   end
 end

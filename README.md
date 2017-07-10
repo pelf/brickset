@@ -33,9 +33,9 @@ client.get_set(10251)
   @name="Brick Bank",
   @pieces=2380,
   @ppp=5.5,
-  @rrp=149.99,
-  @rrpd=169.99,
-  @rrpp=129.99,
+  @rrp_eur=149.99,
+  @rrp_usd=169.99,
+  @rrp_gbp=129.99,
   @score=4.6,
   @subtheme="Modular Buildings",
   @theme="Advanced Models",
@@ -50,7 +50,7 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/brickset.
+Bug reports and pull requests are welcome on GitHub at https://github.com/pelf/brickset.
 
 
 ## License

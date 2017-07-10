@@ -19,10 +19,13 @@ module Brickset
       end
 
       def parse_details(html)
-        # TODO: refactor / cleanup
         details = { }
         eol = 0
-        html.css('section.featurebox dl').css('dt,dd').to_a.each_slice(2) do |dt, dd|
+
+        featurebox = html.css('section.featurebox dl')
+        raise Brickset::Legoset::NotFound unless featurebox.any?
+
+        featurebox.css('dt,dd').to_a.each_slice(2) do |dt, dd|
           case dt.text.strip
           when 'Name'
             details[:name] = dd.text
@@ -41,20 +44,9 @@ module Brickset
             details[:weight] = $1.to_f
           when 'RRP'
             rrps = dd.text.split('/').map{|p| p.match(/([\d|\.]+)/).to_s}
-            details[:rrpp] = rrps.first.to_f
-            details[:rrpd] = rrps.second.to_f
-            if rrps.third.present?
-              details[:rrp] = rrps.third.to_f
-            else
-              # we're converting price in dollars (almost) directly on purpose (in US sets tend to be cheaper)
-              if details[:rrpp] and details[:rrpd] # use avg between dollars and bgp
-                details[:rrp] = ((details[:rrpp] * 1.25)+(details[:rrpd] * 0.9))/2.0
-              elsif details[:rrpp]
-                details[:rrp] = (details[:rrpp] * 1.25)
-              elsif details[:rrpd]
-                details[:rrp] = (details[:rrpd] * 0.9)
-              end
-            end
+            details[:rrp_gbp] = rrps.first.to_f
+            details[:rrp_usd] = rrps.second.to_f
+            details[:rrp_eur] = rrps.third.to_f
           when 'Price per piece'
             dd.text =~ /([\d|\.]+)p\s+\/\s+([\d|\.]+)c/
             details[:ppp] = $1.to_f

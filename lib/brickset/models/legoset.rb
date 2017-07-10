@@ -9,9 +9,9 @@ module Brickset
     attribute :year
     attribute :pieces
     attribute :minifigs
-    attribute :rrpp
-    attribute :rrpd
-    attribute :rrp
+    attribute :rrp_gbp
+    attribute :rrp_usd
+    attribute :rrp_eur
     attribute :ppp
     attribute :score
     attribute :available_since
@@ -25,4 +25,6 @@ module Brickset
       "https://brickset.com/sets/#{@legoset_id}-1"
     end
   end
+
+  class Legoset::NotFound < StandardError; end
 end

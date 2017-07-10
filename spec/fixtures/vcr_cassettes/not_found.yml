@@ -1,0 +1,233 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://brickset.com/sets/123456-1
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/32.0.1667.0 Safari/537.36
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Mon, 10 Jul 2017 12:56:31 GMT
+      Content-Type:
+      - text/html; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Set-Cookie:
+      - ASP.NET_SessionId=u4rcij1tfjcsqkwac32yrdi1; path=/; HttpOnly
+      - ActualCountry=CountryCode=GB&CountryName=United Kingdom; expires=Tue, 11-Jul-2017
+        12:56:24 GMT; path=/; HttpOnly
+      - PreferredCountry2=CountryCode=GB&CountryName=United Kingdom; expires=Tue,
+        10-Jul-2018 12:56:24 GMT; path=/; HttpOnly
+      - __cfduid=d5164c9c4bb1a95e2c2508b2c7fe843e61499691391; expires=Tue, 10-Jul-18
+        12:56:31 GMT; path=/; domain=.brickset.com; HttpOnly
+      Cache-Control:
+      - private
+      Vary:
+      - Content-Encoding
+      X-Powered-By-Plesk:
+      - PleskWin
+      X-Xss-Protection:
+      - 1; mode=block
+      Server:
+      - cloudflare-nginx
+      Cf-Ray:
+      - 37c3aefe19026a19-LHR
+    body:
+      encoding: ASCII-8BIT
+      string: "\n<!DOCTYPE html>\n<!--[if lt IE 7]>      <html class=\"no-js lt-ie9
+        lt-ie8 lt-ie7\"> <![endif]-->\n<!--[if IE 7]>         <html class=\"no-js
+        lt-ie9 lt-ie8\"> <![endif]-->\n<!--[if IE 8]>         <html class=\"no-js
+        lt-ie9\"> <![endif]-->\n<!--[if gt IE 8]><!-->\n<html class=\"no-js\" lang=\"en\">\n<!--<![endif]-->\n<head>\n<meta
+        http-equiv=\"X-UA-Compatible\" content=\"IE=edge\"/>\n<meta http-equiv=\"content-type\"
+        content=\"text/html; charset=utf-8\"/>\n<meta name=\"description\" content=\"LEGO
+        set database: 123456-1\"/>\n<meta name=\"viewport\" id=\"viewport\" content=\"width=device-width,
+        minimum-scale=1.0, maximum-scale=1.0\"/>\n<link rel=\"shortcut icon\" href=\"/favicon.ico\"
+        type=\"image/x-icon\"/>\n<link rel=\"alternate\" type=\"application/rss+xml\"
+        title=\"Brickset news and activity feed\" href=\"//brickset.com/feed/\"/>\n<link
+        rel=\"apple-touch-icon\" href=\"/apple-touch-icon.png\"/>\n<link rel=\"canonical\"
+        href=\"https://brickset.com/sets/123456-1\"/>\n<meta name=\"application-name\"
+        content=\"Brickset\"/>\n<meta name=\"msapplication-TileColor\" content=\"#4667a4\"/>\n<meta
+        name=\"msapplication-TileImage\" content=\"//brickset.com/assets/images/icons/windows8.png\"/>\n<meta
+        name=\"p:domain_verify\" content=\"891d5f8a6ab61f88cd91190bd2d30152\"/>\n<meta
+        property=\"og:type\" content=\"article\"/>\n<meta property=\"og:image\" content=\"https://brickset.com/assets/images/logo.png\"/>\n<meta
+        property=\"og:title\" content=\"123456-1\"/>\n<meta property=\"og:description\"
+        content=\"\"/>\n<meta property=\"og:url\" content=\"https://brickset.com/sets/123456-1\"/>\n<meta
+        property=\"og:site_name\" content=\"Brickset.com\"/>\n<meta property=\"fb:app_id\"
+        content=\"114136156486\"/>\n<meta name=\"twitter:card\" content=\"summary\"/>\n<meta
+        name=\"twitter:site\" content=\"@brickset\"/>\n<meta name=\"twitter:title\"
+        content=\"123456-1\"/>\n<meta name=\"twitter:description\" content=\"\"/>\n<meta
+        name=\"twitter:image\" content=\"https://brickset.com/assets/images/logo.png\"/>\n<link
+        href='//fonts.googleapis.com/css?family=Noto+Sans:400,700,400italic,700italic'
+        rel='stylesheet' type='text/css'>\n<link rel=\"stylesheet\" type=\"text/css\"
+        href=\"/assets/jquery-ui/base/jquery-ui.min.css?v=17\"/>\n<link rel=\"stylesheet\"
+        type=\"text/css\" href=\"/assets/js/highslide/highslide.css?v=17\"/>\n<link
+        rel=\"stylesheet\" type=\"text/css\" href=\"/assets/template/css/template.css?v=17\"/>\n<link
+        rel=\"stylesheet\" type=\"text/css\" href=\"/assets/css/styles.css?v=17\"/>\n<style>div.outerwrap{max-width:1070px;margin:auto;background-color:white;}body{background-color:white;}</style>\n<script
+        src=\"/assets/template/js/vendor/modernizr-2.6.2.min.js\"></script>\n<script
+        type=\"text/javascript\">var tyche = { mode: 'tyche', config: '//config.playwire.com/1016948/v2/websites/63673/banner.json'
+        };</script><script id=\"tyche\" src=\"//cdn.intergi.com/hera/tyche.js\" type=\"text/javascript\"></script>\n<script
+        type=\"text/javascript\">\r\n        var setup = 0;\r\n\r\n        var loggedIn
+        = 0;\r\n    </script>\n<script>\r\n        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){\r\n
+        \           (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),\r\n
+        \           m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)\r\n
+        \       })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');\r\n\r\n
+        \       ga('create', 'UA-7345914-1', 'auto');\r\n        ga('set', 'dimension1',
+        0);\r\n        ga('send', 'pageview');\r\n    </script>\n<script type=\"text/javascript\">\r\n
+        \       var _qevents = _qevents || [];\r\n        (function () {\r\n            var
+        elem = document.createElement('script');\r\n            elem.src = (document.location.protocol
+        == \"https:\" ? \"https://secure\" : \"http://edge\") + \".quantserve.com/quant.js\";\r\n
+        \           elem.async = true;\r\n            elem.type = \"text/javascript\";\r\n
+        \           var scpt = document.getElementsByTagName('script')[0];\r\n            scpt.parentNode.insertBefore(elem,
+        scpt);\r\n        })();\r\n    </script>\n \n<script type=\"text/javascript\">\r\n
+        \           window.cookieconsent_options = {\"message\":\"We use cookies to
+        ensure you get the best experience on our website.\",\"dismiss\":\"Got it!\",\"learnMore\":\"More
+        info\",\"link\":\"/about/privacyandcookies\",\"theme\":\"dark-floating\"};\r\n
+        \       </script>\n<script type=\"text/javascript\" src=\"//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/1.0.9/cookieconsent.min.js\"></script>\n
+        \n<title>123456-1 | Brickset: LEGO set guide and database</title>\n</head>\n<body
+        id=\"body\" class=\"listview\">\n<section class=\"ad\">\n<div data-pw-desk='leaderboard_atf'></div>\n<div
+        data-pw-mobi='leaderboard_atf'></div>\n</section>\n<div class=\"outerwrap\">\n<header
+        role=\"banner\" id=\"banner\">\n<div class=\"wrap\">\n<div class=\"topwrap\">\n<a
+        href=\"/\" rel=\"home\" class=\"logo\">\n<div class=\"hgroup\">\n<h1>Brickset</h1>\n<h2>Your
+        Lego&reg; set guide</h2>\n</div>\n</a>\n<div class=\"country\">\n<a title=\"Set
+        your preferred country\" href=\"#\" style=\"background: url(https://images.brickset.com/flags/GB.png)\">\nGB\n</a>\n</div>\n<nav
+        role=\"navigation\" class=\"sitetools\">\n<ul>\n<li><a href=\"/login\" class=\"loginLink\">Log
+        in</a></li>\n<li><a href=\"/signup\" id=\"signupLink\">Sign up</a></li>\n</ul>\n</nav>\n<form
+        role=\"search\" action=\"/search\" id=\"searchForm\">\n<input type=\"text\"
+        class=\"keyword\" placeholder=\"Search\" id=\"searchQuery\" name=\"query\"
+        value=\"\"/>\n<select name=\"scope\" id=\"searchScope\">\n<option value='All'>All</option><option
+        value='Sets'>Sets</option><option value='Minifigs'>Minifigs</option><option
+        value='Parts'>Parts</option><option value='BrickLists'>BrickLists</option><option
+        value='News'>News</option><option value='Members'>Members</option>\n</select>\n<input
+        type=\"submit\" value=\"Go\"/>\n</form>\n</div>\n<nav role=\"navigation\"
+        class=\"primarynav\">\n<ul>\n<li class=\"browse haschildren\"><a href=\"/browse\"><span>Browse</span></a>\n<div
+        class=\"subnav\">\n<div class=\"wrap\">\n<div class=\"col\">\n<div class=\"group\">\n<div
+        class=\"heading\">Browse our database</div>\n<ul>\n<li><a href=\"/sets\">Sets</a></li>\n<li><a
+        href=\"/minifigs\">Minifigs</a></li>\n<li><a href=\"/parts\">Parts</a></li>\n<li><a
+        href=\"/colours\">Colours</a></li>\n<li>&nbsp;</li>\n<li><a href=\"/instructions\">Instructions</a></li>\n<li><a
+        href=\"/inventories\">Inventories</a></li>\n<li>&nbsp;</li>\n<li><a href=\"/bricklists\">BrickLists</a></li>\n<li><a
+        href=\"/queries\">Queries</a></li>\n<li><a href=\"/reviews\">Reviews</a></li>\n<li><a
+        href=\"/news\">News</a></li>\n</ul>\n</div>\n<div class=\"group\">\n<div class=\"heading\">Sets
+        by year</div>\n<ul>\n<li><a href=\"/sets/year-2017\">2017</a></li>\n<li><a
+        href=\"/sets/year-2016\">2016</a></li>\n<li><a href=\"/sets/year-2015\">2015</a></li>\n<li><a
+        href=\"/sets/year-2014\">2014</a></li>\n</ul>\n</div>\n</div>\n<div class=\"col\">\n<div
+        class=\"group\">\n<div class=\"heading\">New this year</div>\n<ul>\n<li><a
+        href='/sets/theme-BrickHeadz/year-2017'>BrickHeadz</a></li>\n<li><a href='/sets/theme-City/year-2017'>City</a></li>\n<li><a
+        href='/sets/theme-Collectable-Minifigures/year-2017'>Collectable Minifigures</a></li>\n<li><a
+        href='/sets/theme-Creator/year-2017'>Creator</a></li>\n<li><a href='/sets/theme-DC-Super-Hero-Girls/year-2017'>DC
+        Super Hero Girls</a></li>\n<li><a href='/sets/theme-Dimensions/year-2017'>Dimensions</a></li>\n<li><a
+        href='/sets/theme-Disney/year-2017'>Disney</a></li>\n<li><a href='/sets/theme-Elves/year-2017'>Elves</a></li>\n<li><a
+        href='/sets/theme-Friends/year-2017'>Friends</a></li>\n<li><a href='/sets/theme-Marvel-Super-Heroes/year-2017'>Marvel
+        Super Heroes</a></li>\n<li><a href='/sets/theme-Minecraft/year-2017'>Minecraft</a></li>\n<li><a
+        href='/sets/theme-Nexo-Knights/year-2017'>Nexo Knights</a></li>\n<li><a href='/sets/theme-Ninjago/year-2017'>Ninjago</a></li>\n<li><a
+        href='/sets/theme-Speed-Champions/year-2017'>Speed Champions</a></li>\n<li><a
+        href='/sets/theme-Star-Wars/year-2017'>Star Wars</a></li>\n<li><a href='/sets/theme-Technic/year-2017'>Technic</a></li>\n<li><a
+        href=\"/sets/year-2017/tag-polybag\">Polybags</a></li>\n</ul>\n</div>\n</div>\n</div>\n</div>\n</li>\n<li
+        class=\"buy haschildren\"><a href=\"/buy\"><span>Buy</span></a>\n<div class=\"subnav\">\n<div
+        class=\"wrap\">\n<div class=\"col\">\n<div class=\"group\">\n<div class=\"heading\">Shopping
+        for LEGO?</div>\n<ul>\n<li>\n<a href=\"/buy\">Top LEGO bargains</a>\n</li>\n</ul>\n</div>\n<div
+        class=\"group\">\n<div class=\"heading\">Buy at Amazon</div>\n<ul>\n<li><a
+        href=\"/buy/amazon\">Amazon price comparator</a></li>\n<li><a href=\"/buy/country-uk/vendor-amazon/order-percentdiscount\">Discounts
+        at Amazon.co.uk</a></li>\n</ul>\n</div>\n<div class=\"group\">\n<div class=\"heading\">Buy
+        at eBay</div>\n<ul>\n<li><a href=\"/buy/ebay\">eBay product search</a></li>\n</ul>\n</div>\n<div
+        class=\"group\">\n<div class=\"heading\">Buy at Catawiki</div>\n<ul>\n<li><a
+        href=\"/buy/catawiki\">Auction lots at Catawiki</a></li>\n</ul>\n</div>\n</div>\n<div
+        class=\"col\">\n<div class=\"group\">\n<div class=\"heading\">Buy at shop.LEGO.com</div>\n<ul>\n<li><a
+        href=\"/buy/country-uk/vendor-lego/order-dateadded\">New items at shop.LEGO.com</a></li>\n<li><a
+        href=\"/buy/country-uk/vendor-lego/order-percentdiscount\">Discounts at shop.LEGO.com</a></li>\n</ul>\n</div><div
+        class=\"group\">\n<div class=\"heading\">Buy at BrickLink</div>\n<ul>\n<li><a
+        href=\"/buy/country-uk/vendor-bricklink/order-percentdiscount\">Discounts
+        at BrickLink.com</a></li>\n<li><a href=\"/buy/country-uk/vendor-bricklink/order-dateremoved\">Discontinued
+        LEGO products</a></li>\n</ul>\n</div><div class=\"group\">\n<div class=\"heading\">More...</div>\n<ul>\n<li><a
+        href=\"/buy/country-uk/order-percentdiscount\">View discounts in UK</a></li>\n<li><a
+        href=\"/buy/country-uk/order-dateadded\">See what's new in UK</a></li>\n</ul>\n</div>\n<div
+        class=\"group\">\n<div class=\"heading\">Brickset Merchandise</div>\n<ul>\n<li><a
+        href=\"http://shop.minifigforlife.com/minifigs/new-category/\">Printed minifigs
+        and bricks</a></li>\n</ul>\n</div>\n</div>\n</div>\n</div>\n</li>\n<li class=\"mysets\"><a
+        href=\"/mycollection\"><span>My Sets</span></a></li>\n<li class=\"forum\"><a
+        href=\"/forum\"><span>Forum</span></a></li>\n<li class=\"more haschildren\"><a
+        href=\"/more\">More...</a>\n<div class=\"subnav\">\n<div class=\"wrap\">\n<div
+        class=\"col\">\n<div class=\"group\">\n<div class=\"heading\">Lists</div>\n<ul>\n<li><a
+        href=\"/reviews/brickset\">Index of staff reviews</a></li>\n<li><a href=\"/reviews/videos\">Index
+        of video reviews</a></li>\n<li><a href=\"/reviews/topreviewers\">Top reviewers</a></li>\n<li><a
+        href=\"/members\">Members</a></li>\n</ul>\n</div>\n<div class=\"group\">\n<div
+        class=\"heading\">LIbrary</div>\n<ul>\n<li><a href=\"/library/catalogues\">Catalogues</a></li>\n<li><a
+        href=\"/library/ideasbooks\">Ideas Books</a></li>\n<li><a href=\"/library\">More...</a></li>\n</ul>\n</div>\n<div
+        class=\"group\">\n<div class=\"heading\">Tools</div>\n<ul>\n<li><a href=\"/tools/webservices\">Web
+        services</a></li>\n<li><a href=\"/tools/rssindex\">RSS feeds</a></li>\n<li><a
+        href=\"/tools/ieaccelerator\">IE accelerator</a></li>\n<li><a href=\"/tools/mobileapps\">Mobile
+        apps</a></li>\n<li><a href=\"/news/subscribe\">Subscribe to news by email</a></li>\n</ul>\n</div>\n</div>\n<div
+        class=\"col\">\n<div class=\"group\">\n<div class=\"heading\">Help</div>\n<ul>\n<li><a
+        href=\"/search\">Help with searching</a></li>\n<li><a href=\"/faq\">FAQ /
+        How do I...</a></li>\n<li><a href=\"/news/category-tutorial\">Tutorials</a></li>\n</ul>\n</div>\n<div
+        class=\"group\">\n<div class=\"heading\">About Brickset</div>\n<ul>\n<li><a
+        href=\"/about\">About the site</a></li>\n<li><a href=\"/about/privacyandcookies\">Privacy
+        and cookies</a></li>\n<li><a href=\"/about/noveltypolicy\">Novelty policy</a></li>\n<li><a
+        href=\"/about/affiliatemarketing\">Affiliate marketing disclosure</a></li>\n<li><a
+        href=\"/about/statistics\">Site statistics</a></li>\n<li><a href=\"/infographic\">Infographic</a></li>\n<li><a
+        href=\"/sitemap\">Site map</a></li>\n<li><a href=\"/contact\">Contact us</a></li>\n</ul>\n</div>\n</div>\n</div>\n</div>\n</li>\n<li
+        class=\"other\"><a href=\"/mymenu\">My menu</a></li>\n</ul>\n</nav>\n<nav
+        role=\"navigation\" class=\"breadcrumbs\">\n<ul><li><a href=\"/\">Home</a></li><li><a
+        href='/browse'>Browse</a></li><li><a href='/sets'>Sets</a></li><li>123456-1</li></ul>\n</nav>\n</div>\n</header>\n<div
+        class=\"content\">\n<div role=\"main\">\n<section class=' main'>\n<header>\n<h1>123456-1</h1>\n</header>\n<footer>\n</footer>\n<section
+        class=\"setlist\">\n</section>\n<p class=\"intro\">Sorry, we don't have a
+        set with that number in our database. Please use the contact form below to
+        tell us about it.</p>\n</section>\n</div>\n<aside role=\"complementary\">\n<section
+        class=\"ad\">\n<div data-pw-desk='med_rect_atf'></div>\n<div data-pw-mobi='med_rect_atf'></div>\n</section>\n<section
+        class=\"ad\">\n<div data-pw-desk='med_rect_btf'></div>\n<div data-pw-mobi='med_rect_btf'></div>\n</section>\n</aside>\n<div
+        id=\"ajaxContainer\"></div>\n</div>\n<section class=\"ad\">\n<div data-pw-desk='leaderboard_btf'></div>\n<div
+        data-fixed=\"true\" data-pw-mobi='leaderboard_btf'></div>\n</section>\n<footer
+        role=\"contentinfo\">\n<div class=\"wrap\">\n<section class=\"stats\">\n<h3>Site
+        Statistics</h3>\n<ul>\n<li>There are <mark>14265 items</mark> in the Brickset
+        database.</li>\n<li>Brickset members have written <mark>38607 set reviews</mark>.</li>\n<li><mark>5830
+        members</mark> have logged in in the last 24 hours, <mark>13341</mark> in
+        the last 7 days, <mark>22408</mark> in the last month.</li>\n<li><mark>351
+        people</mark> have joined this week. There are now <mark>166468 members</mark>.</li>\n<li>Between
+        us we own <mark>16,416,371 sets</mark> worth at least <mark>US$441,679,696</mark>
+        and containing <mark>4,219,864,908 pieces</mark>.</li>\n</ul>\n</section>\n<section
+        class=\"contact\">\n<h3>Get in touch</h3>\n<p>If you have LEGO news, new images
+        or something else to tell us about, send us a message. If you have a lot to
+        tell us, use <a href=\"/contact\">this contact form</a>.</p>\n<p id=\"contactFormResult\"
+        class=\"alert\"></p>\n<form id=\"contactForm\" method=\"post\" action=\"/contact\">\n<div
+        class=\"col\">\n<input type=\"text\" placeholder=\"Name\" id=\"contactFormName\"
+        value=\"\" name=\"name\" required />\n<input type=\"email\" placeholder=\"Email\"
+        id=\"contactFormEmail\" value=\"\" name=\"email\" required />\n</div>\n<div
+        class=\"col\">\n<textarea placeholder=\"Message\" id=\"contactFormMessage\"
+        name=\"message\"></textarea>\n</div>\n<input type=\"submit\" value=\"Send
+        message\"/>\n</form>\n</section>\n<small class=\"links\">\n<a href=\"/faq\">Frequently
+        Asked Questions</a> |\n<a href=\"/about\">About Brickset</a> |\n<a href=\"/about/privacyandcookies\">Privacy
+        and Cookies</a> |\n<a href=\"/about/affiliatemarketing\">Affiliate Marketing
+        Disclosure</a> |\n<a href=\"/sitemap\">Site Map</a> |\n<a href=\"/contact\">Contact
+        Us</a>\n</small>\n<small>LEGO, the LEGO logo, the Minifigure, and the Brick
+        and Knob configurations are trademarks of the LEGO Group of Companies. &copy;2017
+        The LEGO Group.</small>\n<small>Brickset, the Brickset logo and all content
+        not covered by The LEGO Group's copyright is, unless otherwise stated, &copy;1997-2017
+        Brickset ltd.</small>\n</div>\n</footer>\n</div>\n<div id=\"toTop\">^ Top</div>\n<script
+        src=\"//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js\"></script>\n<script
+        src=\"//ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js\"></script>\n<script>window.jQuery
+        || document.write('<script src=\"/assets/template/js/vendor/jquery-1.9.1.min.js\"><\\/script><script
+        src=\"/assets/template/js/vendor/jquery-ui-1.9.1.min.js\"><\\/script>')</script>\n<script
+        src=\"/assets/js/highslide/highslide-with-html.packed.js\"></script>\n<script
+        src=\"/assets/template/js/main.js?v=17\"></script>\n<script src=\"/assets/js/brickset.js?v=17\"></script>\n<script
+        src=\"//s7.addthis.com/js/300/addthis_widget.js#pubid=hmillington\"></script>\n<script
+        type=\"text/javascript\">\r\n        _qevents.push({ qacct: \"p-62IS0sm0uHgLU\"
+        });\r\n    </script>\n<noscript>\n<div style=\"display: none;\">\n<img src=\"//pixel.quantserve.com/pixel/p-62IS0sm0uHgLU.gif\"
+        height=\"1\" width=\"1\" alt=\"Quantcast\"/>\n</div>\n</noscript>\n<script
+        type=\"text/javascript\">\r\n        \r\n    </script>\n</body>\n</html>\n"
+    http_version: 
+  recorded_at: Mon, 10 Jul 2017 12:56:31 GMT
+recorded_with: VCR 3.0.3
